@@ -1,7 +1,7 @@
 # Flight Dynamics - Autopilot
 Program for calculation and graphical presentation of Lateral and Longitudinal Dynamics  - Autopilot Characteristics
 
-##Introduction
+## Introduction
 Given the physical characteristics of the aircraft (mass, moments of inertia), the flight parameters (speed and altitide)
 and the partial derivatives that describe the behaviour of the aircraft, the program can calculate and draw the response curves
 of the aircraft depending of the external factors acting on the aircraft during flight.     
@@ -14,7 +14,7 @@ deviate from it's trajectory and change altitude or attitude, and the time frame
 Based on these curves the autopilot can move the control suffaces of the aircraft and keep it flying inside the flight envelope,
 or by the predefined flight parameters. e.g. maintaining constant altitude or speed of descent.
 
-##Installation
+## Installation
 Dependencies for the application are python libraries : 
   - scipy
   - numpy
@@ -23,6 +23,6 @@ Dependencies for the application are python libraries :
 On Linux (in terminal):   
     `sudo apt-get install python-scipy python-numpy python-matplotlib`
     
-##Run
+## Run
 To run the application execute following command in the terminal:       
     `python Autopilot_Dynamics.py`
